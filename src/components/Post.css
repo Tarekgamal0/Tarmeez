@@ -1,0 +1,8 @@
+.post {
+  border: 5px solid teal;
+  margin: 25px;
+}
+.post h1,
+p {
+  padding: 20px;
+}
