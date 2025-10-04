@@ -2,6 +2,8 @@ import "./App.css";
 import Header from "./components/Header.jsx";
 import Post from "./components/Post.jsx";
 import SideMenu from "./components/SideMenu.jsx";
+
+const showSideMenu = true;
 function App() {
   return (
     <>
@@ -29,14 +31,16 @@ function App() {
         </div>
         {/*Posts Container*/}
         {/*Side Container*/}
-        <div style={{ width: "30%" }}>
-          <SideMenu />
-        </div>
+        <div style={{ width: "30%" }}>{sideMenuShow()}</div>
         {/*Side Container*/}
       </div>
       {/*Posts & Side Container*/}
     </>
   );
 }
-
+function sideMenuShow() {
+  if (showSideMenu) {
+    return <SideMenu />;
+  } else return null;
+}
 export default App;
