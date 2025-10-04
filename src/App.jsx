@@ -9,7 +9,7 @@ function App() {
       {/*Posts & Side Container*/}
       <div style={{ width: "75%", margin: "auto", display: "flex" }}>
         {/*Posts Container*/}
-        <div style={{ width: "60%" }}>
+        <div style={{ width: "70%" }}>
           <Post />
           <Post />
           <Post />
@@ -19,7 +19,7 @@ function App() {
         </div>
         {/*Posts Container*/}
         {/*Side Container*/}
-        <div style={{ width: "40%" }}>
+        <div style={{ width: "30%" }}>
           <SideMenu />
         </div>
         {/*Side Container*/}
