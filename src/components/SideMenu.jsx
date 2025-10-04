@@ -4,15 +4,9 @@ export default function SideMenu() {
   return (
     <>
       <div className="SideMenu" style={Style}>
-        <Button />
-        <Button />
-        <Button />
-        <Button />
-        <Button />
-        <Button />
-        <Button />
-        <Button />
-        <Button />
+        <Button title="مميز">&#10084;&#10084;</Button>
+        <Button title="اكثر المقالات">&#9733;&#9733;</Button>
+        <Button></Button>
       </div>
     </>
   );

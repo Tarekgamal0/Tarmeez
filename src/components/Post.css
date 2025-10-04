@@ -2,7 +2,7 @@
   border: 5px solid teal;
   margin: 25px;
 }
-.post h1,
-p {
+.post div,
+h5 {
   padding: 20px;
 }

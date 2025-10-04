@@ -1,11 +1,11 @@
 import "./Post.css";
-export default function Post() {
+export default function Post({ children, body="no body" }) {
   return (
     <>
       <div className="post">
-        <h1>This is the post Title</h1>
+        {children}
         <hr />
-        <p>This is the post body</p>
+        <h5>{body}</h5>
       </div>
     </>
   );
